@@ -1,0 +1,91 @@
+body {
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    display: flex;
+    margin: 0;
+    width: 95vw;
+    height: 71vw;
+    text-shadow: 8px 8px 10px #0000008c;
+    background-color: #343a40;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fhexagon&psig=AOvVaw07vYn-S9RCNIL4_bOQJSSt&ust=1671788293375000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCYhO32jPwCFQAAAAAdAAAAABAJ"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000)
+}
+
+.div1 {
+    background-color: rgb(255, 255, 255);
+    width: 1090px;
+    height: 790px;
+    position: relative;
+    left: 83px;
+    bottom: -50px;
+    align-items: center;
+}
+.div2 {
+    background-color: black;
+    width: 1080px;
+    height: 780px;
+    position: relative;
+    left: 5px;
+    bottom: -5px;
+}
+
+.div3 {
+    border-style: solid;
+    width: 1000px;
+    height: 65px;
+    left: 38px;
+    position: relative;
+    bottom: -30px;
+    background: linear-gradient(-90deg, #6d005e 0%, #ff00dd 50%, #6d005e 100%);
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.div4 {
+    height: 50px;
+    width: 500px;
+    background: linear-gradient(-90deg, #6d005e 0%, #ff00dd 50%, #6d005e 100%);
+    bottom: -50px;
+    position: relative;
+    box-shadow: 0 0 1000px #06202c;
+    right: -285px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.home {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -40px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, #ff7878 0%, white 100%);
+    pointer-events: painted;
+}
+
+.biodata {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -50px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, rgb(250, 0, 0) 0%, #ff7878 100%)
+}
+
+.hobi {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -50px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, #ff7878 0%, red 100%)
+}
+
+.tentang {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -60px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, white 0%, #ff7878 100%);
+}

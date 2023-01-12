@@ -1,0 +1,205 @@
+body {
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    display: flex;
+    margin: 0;
+    width: 95vw;
+    height: 71vw;
+    text-shadow: 8px 8px 10px #0000008c;
+    background-color: #343a40;
+}
+
+.div1 {
+    background-color: rgb(255, 255, 255);
+    width: 1090px;
+    height: 790px;
+    position: relative;
+    left: 83px;
+    bottom: -50px;
+    align-items: center;
+}
+.div2 {
+    background-color: black;
+    width: 1080px;
+    height: 780px;
+    position: relative;
+    left: 5px;
+    bottom: -5px;
+}
+
+.div3 {
+    border-style: solid;
+    width: 1000px;
+    height: 65px;
+    left: 38px;
+    position: relative;
+    bottom: -30px;
+    background: linear-gradient(-90deg, #043f16 0%, #2bff00 50%, #043f16 100%);
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.div4 {
+    height: 50px;
+    width: 500px;
+    background: linear-gradient(-90deg, #043f16 0%, #2bff00 50%, #043f16 100%);
+    bottom: -50px;
+    position: relative;
+    box-shadow: 0 0 1000px #06202c;
+    right: -285px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.home {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -40px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, #ff7878 0%, white 100%);
+    pointer-events: painted;
+}
+
+.biodata {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -50px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, rgb(250, 0, 0) 0%, #ff7878 100%)
+}
+
+.hobi {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -50px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, #ff7878 0%, red 100%)
+}
+
+.tentang {
+    position: relative;
+    height: 25px;
+    width: 100px;
+    right: -60px;
+    bottom: -13px;
+    background: linear-gradient(-90deg, white 0%, #ff7878 100%);
+}
+
+.bagianbawah {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background: green ;
+    bottom: -365px;
+    border-top-right-radius: 100px;
+    display:block;
+    transition: 1s ease-in-out;
+}
+
+.bagianbawah:hover {
+    width: 500px;
+    position: relative;
+    background: linear-gradient(-90deg, #043f16 0%, #2bff00 50%, #043f16 100%) ;
+    bottom: -365px;
+   border-top-right-radius: 350px 100px;
+}
+
+.kamera {
+    width: 115px;
+    height: 130px;
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    right: -900px;
+    bottom: 20px;
+}
+
+.kamera1 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    padding: 2px;
+    background-color : #ff7878;
+    bottom: -10px;
+    right: -10px;
+}
+
+.kamera2 {
+    width: 25px;
+    height: 20px;
+    position: relative;
+    border-radius: 7px;
+    padding: 2px;
+    background-color: black;
+    right:  -80px;
+    bottom: 10px;
+    font-size: 1px;
+    color: black;
+}
+
+.kamera3 {
+    width: 133px;
+    height: 72px;
+    position: relative;
+    background-color: green;
+    right: 9px;
+    bottom: -10px;
+}
+
+.kamera3x1 {
+    width: 133px;
+    height: 60px;
+    position: relative;
+    background-color: #2bf869;
+    bottom: -6px;
+}
+
+.kamera3x1x1 {
+    width: 80px;
+    height: 85px;
+    border-radius: 100px;
+    position: relative;
+    background-color: crimson;
+    right: -20px;
+    bottom: 15px;
+    padding: 5px;
+}
+
+.kamera3x1x1x1 {
+    width: 60px;
+    height: 65px;
+    border-radius: 100px;
+    position: relative;
+    background-color: #000000;
+    right: -5px;
+    bottom: -5px;
+    padding: 5px;
+}
+
+.kamera3x1x1x1x1 {
+    width: 40px;
+    height: 45px;
+    border-radius: 100px;
+    position: relative;
+    background-color: #343a40;
+    right: -5px;
+    bottom: -5px;
+    padding: 5px;
+}
+
+.kamera3x1x1x1x1x1 {
+    width: 20px;
+    height: 25px;
+    border-radius: 100px;
+    position: relative;
+    background-color:#211f22;
+    right: -5px;
+    bottom: -5px;
+    padding: 5px;
+}
